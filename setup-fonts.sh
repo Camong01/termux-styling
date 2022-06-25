@@ -3,7 +3,7 @@
 
 set -e -u
 
-TOPDIR=`cd $(dirname $0); pwd`
+TOPDIR=`cd $(files$2); pwd`
 TMPDIR=$TOPDIR/tmp
 FONTDIR=$TOPDIR/app/src/main/assets/fonts/
 
